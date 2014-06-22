@@ -7,7 +7,7 @@ run <- function()
     d3 <- applyDescriptiveActivityNames(d2)
     d4 <- applyDescriptiveColumnNames(d3)
     d5 <- createTidyData(d4)
-    write.table(d5, "tidyHumanActivityDataset.txt")
+    write.table(d5, "tidyHumanActivityDataset.txt", row.names=F)
 }
 
 # Helper function for step 1 of assignment.
