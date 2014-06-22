@@ -22,9 +22,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 To give the variables clearer names, the time domain signals (with prefix t in the original dataset) are now prefixed "TimeDomain", and frequency domain signals (with prefix f in the original dataset) are prefixed "FrequencyDomain". Similarly, accelerometer measurements and gyroscope measurements are appropriately labeled.
 
-*Note that each variable in the current dataset represents a mean over {subject, activity} pairs.* For example, the variable TimeDomainBodyAccelerometer_StandardDeviation_X was computed by extracting the variable tBodyAcc-std()-X from the original dataset, and then summarizing it by computing its mean over all {subject, activity} pairs.
-
-#####List of remaining variables
+The specific names of the variables defined in this way are as follows. If the definitions above are read the names of each variable should be self-explanatory. **Note that each variable in the current dataset represents a mean over {subject, activity} pairs.** For example, the variable TimeDomainBodyAccelerometer_StandardDeviation_X was computed by extracting the variable tBodyAcc-std()-X (mean of time domain accelerometer data, x coordinate) from the original dataset, and then summarizing it by computing its mean over all {subject, activity} pairs.
 
 *TimeDomainBodyAccelerometer_Mean_X*
 
